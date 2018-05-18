@@ -1,0 +1,588 @@
+[10-Feb-2017 13:23:44 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'b2roxhos_usersb23'@'localhost' (using password: YES) in /home/b2roxhosped/public_html/connect.php on line 7
+[10-Feb-2017 13:23:44 UTC] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'b2roxhosped'@'localhost' (using password: NO) in /home/b2roxhosped/public_html/connect.php on line 8
+[10-Feb-2017 13:23:44 UTC] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/b2roxhosped/public_html/connect.php on line 8
+[10-Feb-2017 13:26:18 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:26:26 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:27:09 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:27:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:27:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:28:04 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:28:04 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:29:23 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:29:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:29:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:33:27 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:33:33 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:33:33 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:33:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:34:07 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:34:07 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:34:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:34:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:34:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:34:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:34:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:34:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:36:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 13:36:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 9
+[10-Feb-2017 13:36:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/b2roxhosped/public_html/index.php on line 81
+[10-Feb-2017 15:26:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["541","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '541', 'brunob23', '1', '4', '1', '200', '0', '100', 293)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:27:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["541","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '541', 'brunob23', '1', '4', '1', '200', '0', '100', 1602)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:28:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["470","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '470', 'brunob23', '1', '4', '1', '100', '0', '100', 2630)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:29:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["411","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '411', 'brunob23', '1', '4', '1', '100', '100', '0', 9653)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:29:48 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/b2roxhosped/public_html/comprararmas.php:2) in /home/b2roxhosped/public_html/comprararmas.php on line 4
+[10-Feb-2017 15:29:52 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/b2roxhosped/public_html/comprararmas.php:2) in /home/b2roxhosped/public_html/comprararmas.php on line 4
+[10-Feb-2017 15:29:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["brunob23","M4...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'BuyWeapons', Array)
+#2 /home/b2roxhosped/public_html/comprararmas.php(35): Resource->call('BuyWeapons', 'brunob23', 'M4A1 Mag', 'M4A1 SD', '400')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:30:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["425","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '425', 'brunob23', '2', '0', '2', '100', '130', '2', 1786)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:42:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["432","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '432', 'brunob22', '1', '14', '1', '100', '0', '1000', 8948)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:42:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["432","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '432', 'brunob22', '1', '14', '1', '100', '0', '1000', 881)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:51:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["470","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '470', 'brunob22', '1', '4', '1', '100', '0', '100', 2200)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:54:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["541","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '541', 'brunob22', '1', '4', '1', '200', '0', '100', 7609)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:54:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["541","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '541', 'brunob22', '1', '4', '1', '200', '0', '100', 6680)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 15:55:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["425","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '425', 'brunob22', '2', '0', '2', '100', '130', '2', 8542)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 16:01:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('201.1.133.137', '22005', '/addon_webserve...', '["470","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '470', 'brunob22', '1', '4', '1', '100', '0', '100', 3217)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[10-Feb-2017 16:08:44 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/b2roxhosped/public_html/comprararmas.php:2) in /home/b2roxhosped/public_html/comprararmas.php on line 4
+[10-Feb-2017 16:08:51 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/b2roxhosped/public_html/comprararmas.php:2) in /home/b2roxhosped/public_html/comprararmas.php on line 4
+[18-Feb-2017 15:03:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["470","Arvorre...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '470', 'Arvorre', '1', '4', '1', '100', '0', '100', 1576)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[19-Feb-2017 23:16:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["488","1001","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '488', '1001', '1', '0', '1', '100', '150', '1', 2785)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[19-Feb-2017 23:24:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["437","1001","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '437', '1001', '1', '6', '1', '100', '200', '0', 9163)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[19-Feb-2017 23:25:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["468","1001","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '468', '1001', '1', '2', '1', '100', '50', '0', 5053)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[20-Feb-2017 00:42:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["3597","541","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '3597', '541', 'bret', '1', '4', '1', '200', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[28-Feb-2017 17:11:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["597","goiaba"...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '597', 'goiaba', '1', '4', '1', '100', '80', '0', 1624)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[28-Feb-2017 17:12:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to 92.222.36.172:22005' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:146
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["468","goiaba"...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '468', 'goiaba', '1', '2', '1', '100', '50', '0', 4447)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 146
+[06-Mar-2017 12:43:08 UTC] PHP Warning:  Unknown: write failed: Disk quota exceeded (122) in Unknown on line 0
+[06-Mar-2017 12:43:08 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[07-Mar-2017 04:14:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Not Found' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:203
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["vip1","brunob...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip1', 'brunob21')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 203
+[07-Mar-2017 04:14:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Not Found' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:203
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["vip1","kapeta...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip1', 'kapeta33')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 203
+[07-Mar-2017 04:15:09 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Not Found' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:203
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["vip1","kapeta...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip1', 'kapeta32')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 203
+[07-Mar-2017 04:20:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Not Found' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:203
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["vip2","brunob...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip2', 'brunob21')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 203
+[08-Mar-2017 20:29:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Resource Not Running' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:203
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_painelvi...', '["vip2","kapeta...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_painelvip', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip2', 'kapeta32')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 203
+[10-Mar-2017 00:33:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["3597","541","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '3597', '541', 'bret', '1', '4', '1', '200', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Mar-2017 00:38:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["3597","541","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '3597', '541', 'bret', '1', '4', '1', '200', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Mar-2017 00:39:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["3597","541","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '3597', '541', 'bret', '1', '4', '1', '200', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Mar-2017 00:39:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('92.222.36.172', '22005', '/addon_webserve...', '["8484","487","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '8484', '487', 'bret', '1', '0', '1', '100', '1', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Mar-2017 03:09:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_painelvi...', '["vip2","brunob...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_painelvip', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip2', 'brunob23')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Mar-2017 03:10:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_painelvi...', '["vip2","brunob...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_painelvip', 'Server_ADDVIP', Array)
+#2 /home/b2roxhosped/public_html/compravips.php(40): Resource->call('Server_ADDVIP', 'vip2', 'brunob24')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 17:39:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6250","411","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6250', '411', 'juniorVIP', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 19:18:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["497","juniorV...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '497', 'juniorVIP', '1', '0', '1', '100', '100', '1', 3669)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 19:20:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["497","juniorV...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '497', 'juniorVIP', '1', '0', '1', '100', '100', '1', 4636)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 19:45:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["497","juniorV...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '497', 'juniorVIP', '1', '0', '1', '100', '100', '1', 1481)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:13:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["7530","487","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '7530', '487', 'azazzel157', '1', '0', '1', '100', '1', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:14:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["1727","411","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '1727', '411', 'lelo', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:14:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6441","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6441', '470', 'azazzel157', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:14:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6441","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6441', '470', 'azazzel157', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:14:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6441","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6441', '470', 'azazzel157', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:14:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["azazzel157","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'BuyWeapons', Array)
+#2 /home/b2roxhosped/public_html/comprararmas.php(34): Resource->call('BuyWeapons', 'azazzel157', 'Sniper M107 Mag', 'Sniper M107', '80')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:18:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6441","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6441', '470', 'azazzel157', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:18:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6441","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6441', '470', 'azazzel157', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:18:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["6441","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '6441', '470', 'azazzel157', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 20:31:09 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["1637","468","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '1637', '468', 'lelo', '1', '2', '1', '100', '50', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 21:38:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["4049","411","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4049', '411', 'Murilo852', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 21:39:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["4049","411","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4049', '411', 'Murilo852', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 22:24:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["4049","411","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4049', '411', 'Murilo852', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[09-Apr-2017 22:27:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["541","Murilo8...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '541', 'Murilo852', '1', '4', '1', '200', '0', '100', 534)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 00:13:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["497","juniorV...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '497', 'juniorVIP', '1', '0', '1', '100', '100', '1', 7590)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 00:53:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["497","nefasto...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '497', 'nefasto157', '1', '0', '1', '100', '100', '1', 3534)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 00:53:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["470","nefasto...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '470', 'nefasto157', '1', '4', '1', '100', '0', '100', 8415)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 00:54:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["nefasto157","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'BuyWeapons', Array)
+#2 /home/b2roxhosped/public_html/comprararmas.php(34): Resource->call('BuyWeapons', 'nefasto157', 'M4A1 Mag', 'M4A1 SD', '500')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 02:02:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["4833","468","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4833', '468', 'juniorVIP', '1', '2', '1', '100', '50', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 02:04:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["4833","468","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4833', '468', 'juniorVIP', '1', '2', '1', '100', '50', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 18:16:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["487","FUS1N_G...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '487', 'FUS1N_G4MER', '1', '0', '1', '100', '1', '100', 7470)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 18:16:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["497","FUS1N_G...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '497', 'FUS1N_G4MER', '1', '0', '1', '100', '100', '1', 2155)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[10-Apr-2017 18:18:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["411","FUS1N_G...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '411', 'FUS1N_G4MER', '1', '4', '1', '100', '100', '0', 7429)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 00:49:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["3254","489","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '3254', '489', 'iTzIceFlame', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 00:49:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["7080","489","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '7080', '489', 'iTzIceFlame', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 00:50:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["873","489","i...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '873', '489', 'iTzIceFlame', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 00:50:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["8683","489","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '8683', '489', 'iTzIceFlame', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 14:30:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["402","gsuis",...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '402', 'gsuis', '1', '4', '1', '100', '80', '0', 389)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 14:33:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["gsuis","M4A1 ...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'BuyWeapons', Array)
+#2 /home/b2roxhosped/public_html/comprararmas.php(34): Resource->call('BuyWeapons', 'gsuis', 'M4A1 Mag', 'M4A1 SD', '500')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 14:39:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["489","canaldp...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '489', 'canaldp', '1', '4', '1', '100', '100', '0', 2145)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 14:45:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["411","canaldp...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '411', 'canaldp', '1', '4', '1', '100', '100', '0', 1081)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 14:46:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["417","canaldp...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '417', 'canaldp', '2', '3', '1', '100', '120', '1', 3286)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 14:58:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["463","canaldp...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '463', 'canaldp', '1', '4', '1', '100', '30', '0', 45)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[11-Apr-2017 19:37:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["4049","411","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4049', '411', 'Murilo852', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 10:43:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["597","alone",...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '597', 'alone', '1', '4', '1', '100', '80', '0', 4447)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 11:01:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["597","alone12...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '597', 'alone123', '1', '4', '1', '100', '80', '0', 7295)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 11:02:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["alone123","AK...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'BuyWeapons', Array)
+#2 /home/b2roxhosped/public_html/comprararmas.php(34): Resource->call('BuyWeapons', 'alone123', 'AK Mag', 'AK-47', '500')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 16:49:00 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('198.50.179.196', '22005', '/addon_webserve...', '["7080","489","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '7080', '489', 'iTzIceFlame', '1', '4', '1', '100', '100', '0')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 20:39:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('167.114.32.47', '22005', '/addon_webserve...', '["4403","470","...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '4403', '470', 'kapeta32', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 20:43:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'There was a problem with the request. Ensure that the resource exists and that the name is spelled correctly.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:196
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('167.114.32.47', '22005', '/addon_webserve...', '["662","470","k...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '662', '470', 'kapeta32', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 196
+[13-Apr-2017 20:44:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('167.114.32.47', '22355', '/addon_webserve...', '["662","470","k...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '662', '470', 'kapeta32', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[13-Apr-2017 20:44:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('167.114.32.47', '22355', '/addon_webserve...', '["662","470","k...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'Respawn_Vehicle', Array)
+#2 /home/b2roxhosped/public_html/meucarros.php(34): Resource->call('Respawn_Vehicle', '662', '470', 'kapeta32', '1', '4', '1', '100', '0', '100')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[13-Apr-2017 20:45:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('167.114.32.47', '22355', '/addon_webserve...', '["541","brunob2...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'CreateVehicle', Array)
+#2 /home/b2roxhosped/public_html/compracarros.php(24): Resource->call('CreateVehicle', '541', 'brunob22', '1', '4', '1', '200', '0', '100', 2543)
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192
+[13-Apr-2017 20:58:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Access Denied. This server requires authentication. Please ensure that a valid username and password combination is provided.' in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php:192
+Stack trace:
+#0 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(79): mta->do_post_request('167.114.32.47', '22355', '/addon_webserve...', '["brunob22","M4...')
+#1 /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php(257): mta->callFunction('addon_webserver', 'BuyWeapons', Array)
+#2 /home/b2roxhosped/public_html/comprararmas.php(34): Resource->call('BuyWeapons', 'brunob22', 'M4A1 Mag', 'M4A1 SD', '500')
+#3 {main}
+  thrown in /home/b2roxhosped/public_html/sdk_mta/mta_sdk.php on line 192

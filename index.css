@@ -1,0 +1,319 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -252px;
+   float:left
+}
+div#container
+{
+   width: 931px;
+   height: 504px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #000080;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Shape1
+{
+   border-width: 0;
+}
+#wb_Form1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #000000 solid;
+}
+#Editbox1
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Editbox2
+{
+   border: 1px #CCCCCC solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox2:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Button1
+{
+   border: 2px #000000 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url(images/index_Button1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#Button3
+{
+   border: 2px #000000 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url(images/index_Button3_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Form2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#daquiparabaixo
+{
+   border-width: 0;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: #0000FF;
+   background-image: none;
+   border: 2px #000000 dotted;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#ClipArt1
+{
+   border-width: 0;
+}
+#adminsonlines
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 ridge;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon1
+{
+   height: 52px;
+   width: 52px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 52px;
+   line-height: 52px;
+   vertical-align: middle;
+   width: 51px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #337AB7;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text11 div
+{
+   text-align: left;
+}
